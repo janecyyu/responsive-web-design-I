@@ -375,7 +375,36 @@ footer {
         margin: 0 5%;
     }
 
+    /* services - hide banner */
+    #hide_banner {
+        display: none;
+    }
 
+    /* services - main */
+    .services {
+        margin: 5%;
+        border-bottom: none;
+        padding: 0;
+    }
+
+    .two_boxes_row {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    /* services - buttom */
+    .buttom {
+        flex-direction: column;
+        margin: 5%;
+        border: none;
+        padding: 0;
+    }
+
+    #sevices-info {
+        display: none;
+    }
+
+    
 
 }
 /* width 501-800 */
@@ -418,5 +447,16 @@ footer {
         padding: 5% 0;
         margin: 0 5%;
     }
+
+    /* services - banner */
+    .banner, .services, .buttom{
+        margin: 5%;
+    }
+
+    .two_boxes_row {
+        margin: 0 5%;
+        padding: 0;
+    }
+    
 }
 
