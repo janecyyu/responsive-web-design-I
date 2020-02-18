@@ -97,6 +97,12 @@ header {
 	text-align: center;
 	/* background-color: pink; */
 }
+
+.menu_two {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .menu {
 	width: 100%;
 	display: flex;
@@ -312,7 +318,7 @@ footer {
     }
     .menu_two {
         display: flex;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         flex-direction: column;
         align-items: center;
     }
@@ -412,6 +418,8 @@ footer {
     .container{
         width: 100%;
     }
+
+
 
     .menu {
         display: flex;
