@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5 {
 } 
 
 .row .col h1 {
-    font-size: 80px;
+    font-size: 50px;
     margin: 5%;
     text-align: center;
 }
@@ -189,10 +189,16 @@ footer {
         border: none;
     }
 
+    .row .col h1 {
+        font-size: 60px;
+    }
+
     .top_content, .bottom_content {
         display: flex;
         flex-direction: row;
     }
+
+    
 
     .contact {
         padding: 2% 0;
@@ -216,6 +222,10 @@ footer {
 
     #hide_this {
         display: flex;
+    }
+
+    .row .col h1 {
+        font-size: 80px;
     }
 
     .row {
